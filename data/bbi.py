@@ -18,7 +18,7 @@ Pilih kategori Anda
 3. Pria
 4. Wanita
 5. Ibu hamil
-0. Kembali
+0. Keluar
 -------------------------------------------------------""")
   
   jenis = input('Respon: ')
