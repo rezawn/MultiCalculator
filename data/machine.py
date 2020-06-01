@@ -5,9 +5,10 @@
 #SCRIPT PEMANGGIL
 
 from os import system
+from data import clr
 
 while True:
-    system('clear')
+    system(clr.d)
     print("MULTI KALKULATOR")
     print("""-------------------------------------------------------
 Silahkan pilih jenis kalkulator yang anda inginkan
@@ -26,77 +27,77 @@ Silahkan pilih jenis kalkulator yang anda inginkan
     jenis = input("Respon: ")
     
     if jenis == '1':
-        system('clear')
+        system(clr.d)
         print('COMING SOON')
         print()
         input('Tekan enter untuk keluar...')
-        system('clear')
+        system(clr.d)
         break
             
     elif jenis == '2':
-        system('clear')
+        system(clr.d)
         print('COMING SOON')
         print()
         input('Tekan enter untuk keluar...')
-        system('clear')
+        system(clr.d)
         break
             
     elif jenis == '3':
-        system('clear')
+        system(clr.d)
         print('COMING SOON')
         print()
         input('Tekan enter untuk keluar...')
-        system('clear')
+        system(clr.d)
         break
     
     elif jenis == '4':
-        system('clear')
+        system(clr.d)
         print('COMING SOON')
         print()
         input('Tekan enter untuk keluar...')
-        system('clear')
+        system(clr.d)
         break
     
     elif jenis == '5':
-        system('clear')
+        system(clr.d)
         print('COMING SOON')
         print()
         input('Tekan enter untuk keluar...')
-        system('clear')
+        system(clr.d)
         break
     
     if jenis == '6':
-        system('clear')
+        system(clr.d)
         print('COMING SOON')
         print()
         input('Tekan enter untuk keluar...')
-        system('clear')
+        system(clr.d)
         break
             
     elif jenis == '7':
-        system('clear')
+        system(clr.d)
         print('COMING SOON')
         print()
         input('Tekan enter untuk keluar...')
-        system('clear')
+        system(clr.d)
         break
             
     elif jenis == '8':
-        system('clear')
+        system(clr.d)
         print('COMING SOON')
         print()
         input('Tekan enter untuk keluar...')
-        system('clear')
+        system(clr.d)
         break
     
     elif jenis == '9':
-        system('clear')
+        system(clr.d)
         print('COMING SOON')
         print()
         input('Tekan enter untuk keluar...')
-        system('clear')
+        system(clr.d)
         break
     
     elif jenis == '0':
-        system('clear')
+        system(clr.d)
         break
