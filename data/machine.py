@@ -48,10 +48,7 @@ Silahkan pilih jenis kalkulator yang anda inginkan
         break
     
     elif jenis == '4':
-        system(clr.d)
-        print('COMING SOON')
-        print()
-        input('Tekan enter untuk keluar...')
+        from data import kurs
         system(clr.d)
         break
     
