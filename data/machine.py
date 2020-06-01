@@ -17,7 +17,7 @@ Silahkan pilih jenis kalkulator yang anda inginkan
 3. Kalkulator Konversi Waktu [COMING SOON]
 4. Kalkulator Konversi Mata Uang [COMING SOON]
 5. Kalkulator Berat Badan Ideal
-6. Kalkulator Konversi Satuan Panjang [COMING SOON]
+6. Kalkulator Konversi Satuan Panjang 
 7. Kalkulator Konversi Satuan Berat [COMING SOON]
 8. Kalkulator Konversi Satuan Luas [COMING SOON]
 9. Kalkulator Volume Bangun Ruang [COMING SOON]
@@ -64,10 +64,7 @@ Silahkan pilih jenis kalkulator yang anda inginkan
         break
     
     if jenis == '6':
-        system(clr.d)
-        print('COMING SOON')
-        print()
-        input('Tekan enter untuk keluar...')
+        from data import panjang
         system(clr.d)
         break
             
