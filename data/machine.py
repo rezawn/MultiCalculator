@@ -15,7 +15,7 @@ Silahkan pilih jenis kalkulator yang anda inginkan
 1. Kalkulator Numerik [COMING SOON]
 2. Kalkulator Konversi Suhu [COMING SOON]
 3. Kalkulator Konversi Waktu 
-4. Kalkulator Konversi Mata Uang [COMING SOON]
+4. Kalkulator Konversi Mata Uang
 5. Kalkulator Berat Badan Ideal
 6. Kalkulator Konversi Satuan Panjang 
 7. Kalkulator Konversi Satuan Berat 
