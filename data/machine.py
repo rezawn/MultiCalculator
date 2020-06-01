@@ -14,11 +14,11 @@ while True:
 Silahkan pilih jenis kalkulator yang anda inginkan
 1. Kalkulator Numerik [COMING SOON]
 2. Kalkulator Konversi Suhu [COMING SOON]
-3. Kalkulator Konversi Waktu [COMING SOON]
+3. Kalkulator Konversi Waktu 
 4. Kalkulator Konversi Mata Uang [COMING SOON]
 5. Kalkulator Berat Badan Ideal
 6. Kalkulator Konversi Satuan Panjang 
-7. Kalkulator Konversi Satuan Berat [COMING SOON]
+7. Kalkulator Konversi Satuan Berat 
 8. Kalkulator Konversi Satuan Luas [COMING SOON]
 9. Kalkulator Volume Bangun Ruang [COMING SOON]
 0. Keluar
@@ -43,10 +43,7 @@ Silahkan pilih jenis kalkulator yang anda inginkan
         break
             
     elif jenis == '3':
-        system(clr.d)
-        print('COMING SOON')
-        print()
-        input('Tekan enter untuk keluar...')
+        from data import time
         system(clr.d)
         break
     
@@ -69,10 +66,7 @@ Silahkan pilih jenis kalkulator yang anda inginkan
         break
             
     elif jenis == '7':
-        system(clr.d)
-        print('COMING SOON')
-        print()
-        input('Tekan enter untuk keluar...')
+        from data import berat
         system(clr.d)
         break
             
