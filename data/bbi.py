@@ -14,7 +14,7 @@ while iterasi:
   print("""-------------------------------------------------------
 Pilih kategori Anda
 1. Bayi 0-12 bulan
-2. Usia 1-10 tahun
+2. Anak usia 1-10 tahun
 3. Pria
 4. Wanita
 5. Ibu hamil
@@ -46,7 +46,7 @@ Pilih kategori Anda
       print('MENGHITUNG BERAT BADAN IDEAL')
       
       #usia dalam satuan tahun
-      UB = float(input('Usia Bayi dalam Satuan Tahun : '))
+      UB = float(input('Usia Anak dalam Satuan Tahun : '))
       
       Bbi_anak=(2*UB)+8
       
