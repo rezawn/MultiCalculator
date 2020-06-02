@@ -101,6 +101,9 @@ Pilih kategori Anda
       
       if 0<UK<43:
         print("Berat Badan Ideal (Kg) : ",Bbi_wanita_hamil)
+        ulang = input('Apakah Anda ingin menggunakan kategori ini lagi? (y/n) ')
+        if ulang != 'y':
+          break
         
       else:
         print("Usia Kehamilan Harus Berada Diantara 1-42 Minggu")
