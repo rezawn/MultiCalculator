@@ -190,6 +190,168 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
         
         Jika tidak maka Selesai
         
+  - Fitur 5 : Penggunaan percabangan dan perulangan
+  
+    Pemilihan kategori yang akan dihitung Berat Badan Idealnya
+    
+    - Pilih kategori bayi usia 0-12 bulan
+      
+      Pengguna diminta menginputkan usia bayi yang akan dihitung Berat Badan Idealnya dalam satuan Bulan
+        
+      Program memberikan output hasil dari perhitungan Berat Badan Ideal bayi dalam satuan Kilogram
+        
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+        
+      Jika ya maka pengguna diminta menginputkan usia bayi dalam satuan Bulan kembali
+        
+      Jika tidak maka pengguna kembali pada pemilihan kategori Berat Badan Ideal yang akan dihitung
+      
+    - Pilih kategori anak usia 1-10 tahun
+    
+      Pengguna diminta menginputkan usia anak yang akan dihitung Berat Badan Idealnya dalam satuan Tahun
+      
+      Program memberikan output hasil dari perhitungan Berat Badan Ideal anak dalam satuan Kilogram
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan usia anak dalam satuan Tahun kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan kategori Berat Badan Ideal yang akan dihitung
+      
+    - Pilih kategori Pria
+      
+      Pengguna diminta menginputkan tinggi badan pria yang akan dihitung Berat Badan Idealnya dalam satuan Cm
+      
+      Program memberikan output hasil dari perhitungan Berat Badan Ideal pria dalam satuan Kilogram
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan tinggi badan pria dalam satuan Cm kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan kategori Berat Badan Ideal yang akan dihitung
+      
+    - Pilih kategori Wanita
+      
+      Pengguna diminta menginputkan tinggi badan wanita yang akan dihitung Berat Badan Idealnya dalam satuan Cm
+      
+      Program memberikan output hasil dari perhitungan Berat Badan Ideal wanita dalam satuan Kilogram
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan tinggi badan wanita dalam satuan Cm kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan kategori Berat Badan Ideal yang akan dihitung
+      
+    - Pilih kategori Ibu Hamil
+      
+      Pengguna diminta menginputkan berat badan ideal yang telah dihitung sebelumnya dalam satuan Kilogram
+      
+      Pengguna diminta menginputkan usia kehamilannya dalam satuan Minggu
+      
+      Program memberikan output hasil dari perhitungan Berat Badan Ideal wanita hamil dalam satuan Kilogram apabila       usia kehamilan yang diinputkan antara 1-42 minggu
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan berat badan ideal dan usia kehamilan dalam satuan Kilogram dan           Minggu kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan kategori Berat Badan Ideal yang akan dihitung 
+      
+    - Pilih keluar
+    
+      Selesai
+      
+  - Fitur 8 : Penggunaan Percabangan dan Perulangan
+    
+    Pemilihan satuan luas yang akan dikonversi
+    
+    - Pilih Kilometer Persegi
+    
+      Pengguna diminta menginputkan nilai luas dalam satuan Kilometer Persegi yang akan dikonversi
+      
+      Program memberikan output konversi dalam berbagai satuan luas
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan luas dalam satuan Kilometer Persegi kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      
+    - Pilih Hektometer Persegi
+      
+      Pengguna diminta menginputkan nilai luas dalam satuan Hektometer Persegi atau Hektar yang akan dikonversi
+      
+      Program memberikan output konversi dalam berbagai satuan luas
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan luas dalam satuan Hektometer Persegi atau Hektar kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      
+    - Pilih Dekameter Persegi
+      
+      Pengguna diminta menginputkan nilai luas dalam satuan Dekameter Persegi atau Are yang akan dikonversi
+      
+      Program memberikan output konversi dalam berbagai satuan luas
+     
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak    
+      
+      Jika ya maka pengguna diminta menginputkan luas dalam satuan Dekameter Persegi atau Are kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      
+    - Pilih Meter Persegi 
+      
+      Pengguna diminta menginputkan nilai luas dalam satuan Meter Persegi yang akan dikonversi
+      
+      Program memberikan output konversi dalam berbagai satuan luas
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan luas dalam satuan Meter Persegi kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      
+    - Pilih Desimeter Persegi
+      
+      Pengguna diminta menginputkan nilai luas dalam satuan Desimeter Persegi yang akan dikonversi
+      
+      Program memberikan output konversi dalam berbagai satuan luas
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan luas dalam satuan Desimeter Persegi kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      
+    - Pilih Centimeter Persegi
+    
+      Pengguna diminta menginputkan nilai luas dalam satuan Centimeter Persegi yang akan dikonversi
+      
+      Program memberikan output konversi dalam berbagai satuan luas
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan luas dalam satuan Centimeter Persegi kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      
+    - Pilih Milimeter Persegi
+      
+      Pengguna diminta menginputkan nilai luas dalam satuan Milimeter Persegi yang akan dikonversi
+      
+      Program memberikan output konversi dalam berbagai satuan luas
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan luas dalam satuan Milimeter Persegi kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      
+    - Pilih Keluar
+      
+      Selesai
+   
     - Pilih online
       
       Pengguna diberikan peringatan dibutuhkannya koneksi internet
