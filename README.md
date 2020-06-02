@@ -1,5 +1,5 @@
 # MultiCalculator
-Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghitung berbagai jenis hitungan. Didalam program tersebut menyediakan 9 fitur pilihan program yang bisa dijalankan, antara lain :
+Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghitung berbagai jenis hitungan. Didalam program tersebut menyediakan 11 fitur pilihan program yang bisa dijalankan, antara lain :
 1. Kalkulator numerik
 2. Kalkulator konversi suhu
 3. Kalkulator konversi waktu
