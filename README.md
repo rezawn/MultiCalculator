@@ -260,93 +260,93 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
     
       Selesai
       
-  - Fitur 8 : Penggunaan Percabangan dan Perulangan
+  - Fitur 6 : Penggunaan Percabangan dan Perulangan
     
-    Pemilihan satuan luas yang akan dikonversi
+    Pemilihan satuan panjang yang akan dikonversi
     
-    - Pilih Kilometer Persegi
+    - Pilih Kilometer
     
-      Pengguna diminta menginputkan nilai luas dalam satuan Kilometer Persegi yang akan dikonversi
+      Pengguna diminta menginputkan nilai panjang dalam satuan Kilometer yang akan dikonversi
       
-      Program memberikan output konversi dalam berbagai satuan luas
+      Program memberikan output konversi dalam berbagai satuan panjang
       
       Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
       
-      Jika ya maka pengguna diminta menginputkan luas dalam satuan Kilometer Persegi kembali
+      Jika ya maka pengguna diminta menginputkan panjang dalam satuan Kilometer kembali
       
-      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      Jika tidak maka pengguna kembali pada pemilihan satuan panjang yang akan dikonversi
       
-    - Pilih Hektometer Persegi
+    - Pilih Hektometer 
       
-      Pengguna diminta menginputkan nilai luas dalam satuan Hektometer Persegi atau Hektar yang akan dikonversi
+      Pengguna diminta menginputkan nilai panjang dalam satuan Hektometer yang akan dikonversi
       
-      Program memberikan output konversi dalam berbagai satuan luas
+      Program memberikan output konversi dalam berbagai satuan panjang
       
       Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
       
-      Jika ya maka pengguna diminta menginputkan luas dalam satuan Hektometer Persegi atau Hektar kembali
+      Jika ya maka pengguna diminta menginputkan panjang dalam satuan Hektometer kembali
       
-      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      Jika tidak maka pengguna kembali pada pemilihan satuan panjang yang akan dikonversi
       
-    - Pilih Dekameter Persegi
+    - Pilih Dekameter 
       
-      Pengguna diminta menginputkan nilai luas dalam satuan Dekameter Persegi atau Are yang akan dikonversi
+      Pengguna diminta menginputkan nilai panjang dalam satuan Dekameter yang akan dikonversi
       
-      Program memberikan output konversi dalam berbagai satuan luas
+      Program memberikan output konversi dalam berbagai satuan panjang
      
       Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak    
       
-      Jika ya maka pengguna diminta menginputkan luas dalam satuan Dekameter Persegi atau Are kembali
+      Jika ya maka pengguna diminta menginputkan panjang dalam satuan Dekameter kembali
       
-      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      Jika tidak maka pengguna kembali pada pemilihan satuan panjang yang akan dikonversi
       
-    - Pilih Meter Persegi 
+    - Pilih Meter 
       
-      Pengguna diminta menginputkan nilai luas dalam satuan Meter Persegi yang akan dikonversi
+      Pengguna diminta menginputkan nilai panjang dalam satuan Meter yang akan dikonversi
       
-      Program memberikan output konversi dalam berbagai satuan luas
-      
-      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
-      
-      Jika ya maka pengguna diminta menginputkan luas dalam satuan Meter Persegi kembali
-      
-      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
-      
-    - Pilih Desimeter Persegi
-      
-      Pengguna diminta menginputkan nilai luas dalam satuan Desimeter Persegi yang akan dikonversi
-      
-      Program memberikan output konversi dalam berbagai satuan luas
+      Program memberikan output konversi dalam berbagai satuan panjang
       
       Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
       
-      Jika ya maka pengguna diminta menginputkan luas dalam satuan Desimeter Persegi kembali
+      Jika ya maka pengguna diminta menginputkan panjang dalam satuan Meter kembali
       
-      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      Jika tidak maka pengguna kembali pada pemilihan satuan panjang yang akan dikonversi
       
-    - Pilih Centimeter Persegi
+    - Pilih Desimeter 
+      
+      Pengguna diminta menginputkan nilai panjang dalam satuan Desimeter yang akan dikonversi
+      
+      Program memberikan output konversi dalam berbagai satuan panjang
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan panjang dalam satuan Desimeter kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan satuan panjang yang akan dikonversi
+      
+    - Pilih Centimeter
     
-      Pengguna diminta menginputkan nilai luas dalam satuan Centimeter Persegi yang akan dikonversi
+      Pengguna diminta menginputkan nilai panjang dalam satuan Centimeter yang akan dikonversi
       
-      Program memberikan output konversi dalam berbagai satuan luas
-      
-      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
-      
-      Jika ya maka pengguna diminta menginputkan luas dalam satuan Centimeter Persegi kembali
-      
-      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
-      
-    - Pilih Milimeter Persegi
-      
-      Pengguna diminta menginputkan nilai luas dalam satuan Milimeter Persegi yang akan dikonversi
-      
-      Program memberikan output konversi dalam berbagai satuan luas
+      Program memberikan output konversi dalam berbagai satuan panjang
       
       Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
       
-      Jika ya maka pengguna diminta menginputkan luas dalam satuan Milimeter Persegi kembali
+      Jika ya maka pengguna diminta menginputkan panjang dalam satuan Centimeter kembali
       
-      Jika tidak maka pengguna kembali pada pemilihan satuan luas yang akan dikonversi
+      Jika tidak maka pengguna kembali pada pemilihan satuan panjang yang akan dikonversi
+      
+    - Pilih Milimeter
+      
+      Pengguna diminta menginputkan nilai panjang dalam satuan Milimeter yang akan dikonversi
+      
+      Program memberikan output konversi dalam berbagai satuan panjang
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta menginputkan panjang dalam satuan Milimeter kembali
+      
+      Jika tidak maka pengguna kembali pada pemilihan satuan panjang yang akan dikonversi
       
     - Pilih Keluar
       
