@@ -1,9 +1,9 @@
+  
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jun  1 15:28:42 2020
 
-@author: Cornelius Dianto
-"""
+
+#SCRIPT KALKULATOR PERHITUNGAN BUNGA BANK
 
 from os import system
 from data import clr
