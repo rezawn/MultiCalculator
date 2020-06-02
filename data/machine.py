@@ -22,6 +22,7 @@ Silahkan pilih jenis kalkulator yang anda inginkan
 8. Kalkulator Konversi Satuan Luas [COMING SOON]
 9. Kalkulator Volume Bangun Ruang [COMING SOON]
 10. Kalkulator Perhitungan Bunga Bank
+11. Kalkulator Estimasi Biaya Listrik Bulanan
 0. Keluar
 -------------------------------------------------------""")
 
@@ -86,6 +87,11 @@ Silahkan pilih jenis kalkulator yang anda inginkan
     
     elif jenis == '10':
         from data import bunga
+        system(clr.d)
+        break
+    
+    elif jenis == '11':
+        from data import listrik
         system(clr.d)
         break
     
