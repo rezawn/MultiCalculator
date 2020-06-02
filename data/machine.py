@@ -19,8 +19,8 @@ Silahkan pilih jenis kalkulator yang anda inginkan
 5. Kalkulator Berat Badan Ideal
 6. Kalkulator Konversi Satuan Panjang 
 7. Kalkulator Konversi Satuan Berat 
-8. Kalkulator Konversi Satuan Luas [COMING SOON]
-9. Kalkulator Volume Bangun Ruang [COMING SOON]
+8. Kalkulator Konversi Satuan Luas
+9. Kalkulator Volume Bangun Ruang
 10. Kalkulator Perhitungan Bunga Bank
 11. Kalkulator Estimasi Biaya Listrik Bulanan
 0. Keluar
@@ -59,7 +59,7 @@ Silahkan pilih jenis kalkulator yang anda inginkan
         system(clr.d)
         break
     
-    if jenis == '6':
+    elif jenis == '6':
         from data import panjang
         system(clr.d)
         break
@@ -70,18 +70,12 @@ Silahkan pilih jenis kalkulator yang anda inginkan
         break
             
     elif jenis == '8':
-        system(clr.d)
-        print('COMING SOON')
-        print()
-        input('Tekan enter untuk keluar...')
+        from data import luas
         system(clr.d)
         break
     
     elif jenis == '9':
-        system(clr.d)
-        print('COMING SOON')
-        print()
-        input('Tekan enter untuk keluar...')
+        from data import volume
         system(clr.d)
         break
     
