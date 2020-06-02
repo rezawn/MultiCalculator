@@ -12,8 +12,8 @@ while True:
     print("MULTI KALKULATOR")
     print("""-------------------------------------------------------
 Silahkan pilih jenis kalkulator yang anda inginkan
-1. Kalkulator Numerik [COMING SOON]
-2. Kalkulator Konversi Suhu [COMING SOON]
+1. Kalkulator Numerik
+2. Kalkulator Konversi Suhu
 3. Kalkulator Konversi Waktu 
 4. Kalkulator Konversi Mata Uang
 5. Kalkulator Berat Badan Ideal
