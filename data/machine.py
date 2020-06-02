@@ -21,6 +21,7 @@ Silahkan pilih jenis kalkulator yang anda inginkan
 7. Kalkulator Konversi Satuan Berat 
 8. Kalkulator Konversi Satuan Luas [COMING SOON]
 9. Kalkulator Volume Bangun Ruang [COMING SOON]
+10. Kalkulator Perhitungan Bunga Bank
 0. Keluar
 -------------------------------------------------------""")
 
@@ -80,6 +81,11 @@ Silahkan pilih jenis kalkulator yang anda inginkan
         print('COMING SOON')
         print()
         input('Tekan enter untuk keluar...')
+        system(clr.d)
+        break
+    
+    elif jenis == '10':
+        from data import bunga
         system(clr.d)
         break
     
