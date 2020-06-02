@@ -29,18 +29,12 @@ Silahkan pilih jenis kalkulator yang anda inginkan
     jenis = input("Respon: ")
     
     if jenis == '1':
-        system(clr.d)
-        print('COMING SOON')
-        print()
-        input('Tekan enter untuk keluar...')
+        from data import num
         system(clr.d)
         break
             
     elif jenis == '2':
-        system(clr.d)
-        print('COMING SOON')
-        print()
-        input('Tekan enter untuk keluar...')
+        from data import thermo
         system(clr.d)
         break
             
