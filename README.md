@@ -483,6 +483,202 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
     - Pilih Keluar
     
       Keluar dari program konversi berat
+      
+  - Fitur 8 : Penggunaan percabangan dan pengulangan
+    
+     Pemilihan satuan luas yang akan dikonversi.
+     
+     - Pilih Kilometer persegi
+     
+       Pengguna diminta menginputkan nilai luas dalam satuan Kilometer persegi
+     
+       Program memberikan output dari berbagai jenis satuan luas
+     
+       Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+     
+       Jika ya, maka pengguna menginputkan kembali nilai luas
+     
+       Jika tidak, maka selesai
+
+    - Pilih Hektometer persegi (Hektar)
+    
+      Pengguna diminta menginputkan nilai luas dalam satuan Hektometer persegi (Hektar)
+      
+      Program memberikan output dari berbagai jenis satuan luas
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali nilai luas
+      
+      Jika tidak, maka selesai
+
+    - Pilih Dekameter persegi (Are)
+    
+      Pengguna diminta menginputkan nilai luas dalam satuan Dekameter persegi (Are)
+      
+      Program memberikan output dari berbagai jenis satuan luas
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali nilai luas
+      
+      Jika tidak, maka selesai
+
+    - Pilih Meter persegi
+     
+      Pengguna diminta menginputkan nilai luas dalam satuan Meter persegi
+      
+      Program memberikan output dari berbagai jenis satuan luas
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali nilai luas
+      
+      Jika tidak, maka selesai
+
+    - Pilih Desimeter persegi
+     
+      Pengguna diminta menginputkan nilai luas dalam satuan Desimeter persegi
+      
+      Program memberikan output dari berbagai jenis satuan luas
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali nilai luas
+      
+      Jika tidak, maka selesai
+
+    - Pilih Centimeter persegi
+    
+      Pengguna diminta menginputkan nilai luas dalam satuan Centimeter persegi
+      
+      Program memberikan output dari berbagai jenis satuan luas
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali nilai luas
+      
+      Jika tidak, maka selesai
+
+    - Pilih Milimeter persegi
+      
+      Pengguna diminta menginputkan nilai luas dalam satuan Milimeter persegi
+      
+      Program memberikan output dari berbagai jenis satuan luas
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali nilai luas
+      
+      Jika tidak, maka selesai
+   
+    - Pilih Keluar
+      
+      Selesai
+
+  - Fitur 9 : Penggunaan percabangan dan pengulangan
+ 
+     Perhitungan volume pada bangun ruang dengan satuan apa saja tetapi sejenis.
+     
+    - Pilih Kubus
+    
+      Pengguna diminta menginputkan panjang sisi kubus
+
+      Program memberikan output hasil perhitungan volume kubus
+       
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali panjang sisi kubus
+      
+      Jika tidak, maka selesai
+      
+    -	Pilih Balok
+      
+      Pengguna diminta menginputkan panjang, lebar, dan tinggi balok
+
+      Program memberikan output hasil perhitungan volume balok
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali panjang, lebar, dan tinggi balok
+      
+      Jika tidak, maka selesai
+      
+    -	Pilih Prisma Segitiga
+      
+      Pengguna diminta menginputkan panjang alas, tinggi alas, dan tinggi prisma segitiga
+      
+      Program memberikan output hasil perhitungan volume prisma segitiga
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali panjang alas, tinggi alas, dan tinggi prisma segitiga
+      
+      Jika tidak, maka selesai
+      
+    -	Pilih Limas Segitiga
+
+      Pengguna diminta menginputkan panjang alas, tinggi alas, dan tinggi limas segitiga
+      
+      Program memberikan output hasil perhitungan volume limas segitiga
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali panjang alas, tinggi alas, dan tinggi limas segitiga
+      
+      Jika tidak, maka selesai
+      
+    -	Pilih Limas Segiempat
+
+      Pengguna diminta menginputkan panjang alas, lebar alas, dan tinggi limas segiempat
+      
+      Program memberikan output hasil perhitungan volume limas segiempat
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali panjang alas, lebar alas, dan tinggi limas segiempat
+      
+      Jika tidak, maka selesai
+      
+    -	Pilih Tabung
+      
+      Pengguna diminta menginputkan panjang jari-jari alas dan tinggi tabung
+      
+      Program memberikan output hasil perhitungan volume tabung
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali panjang jari-jari alas dan tinggi tabung
+      
+      Jika tidak, maka selesai
+      
+    - Pilih Kerucut
+    
+      Pengguna diminta menginputkan panjang jari-jari dan tinggi kerucut
+      
+      Program memberikan output hasil perhitungan volume kerucut
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali panjang jari-jari dan tinggi kerucut
+      
+      Jika tidak, maka selesai
+
+    - Pilih Bola
+    
+      Pengguna diminta menginputkan panjang jari-jari bola
+      
+      Program memberikan output hasil perhitungan volume bola
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya, maka pengguna menginputkan kembali panjang jari-jari bola
+      
+      Jika tidak, maka selesai
+      
+     - Pilih Keluar
+
+       Selesai
      
   - Fitur 10 : Penggunaan Definisi, Percabangan, dan Perulangan
   
