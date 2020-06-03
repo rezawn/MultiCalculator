@@ -23,6 +23,7 @@ Silahkan pilih jenis kalkulator yang anda inginkan
 9. Kalkulator Volume Bangun Ruang
 10. Kalkulator Perhitungan Bunga Bank
 11. Kalkulator Estimasi Biaya Listrik Bulanan
+12. Informasi Program
 0. Keluar
 -------------------------------------------------------""")
 
@@ -80,6 +81,11 @@ Silahkan pilih jenis kalkulator yang anda inginkan
     
     elif jenis == '11':
         from data import listrik
+        system(clr.d)
+        break
+    
+    elif jenis == '12':
+        from data import info
         system(clr.d)
         break
     
