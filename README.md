@@ -379,3 +379,43 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
     - Pilih keluar
     
       Selesai
+      
+  - Fitur 10 : Penggunaan Definisi, Percabangan, dan Perulangan
+  
+     Pemilihan jenis bunga bank yang akan dihitung, terdiri dari: Bunga Sederhana dan Bunga Majemuk.
+     
+    - Pilih Bunga Sederhana
+    
+      Pengguna diminta untuk memasukkan nilai awal/saldo awal sebelum mendapatkan bunga.
+      
+      Pengguna diminta untuk memasukkan nilai persentase suku bunga tanpa menggunakan (%).
+      
+      Pengguna diminta untuk memasukkan lama periode dalam bulan.
+      
+      Program akan memberikan output perhitungan nilai akhir/saldo akhir setelah mendapatkan bunga.
+      
+      Pengguna diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak.
+      
+      Jika ya, maka pengguna diminta memasukkan nilai awal, persentase suku bunga, dan lama peruode kembali
+      
+      Jika tidak, maka pengguna akan kembali pada pemilihan jenis bunga bank yang akan dihitung.
+    
+    - Pilih Bunga Majemuk
+    
+      Pengguna diminta untuk memasukkan nilai awal/saldo awal sebelum mendapatkan bunga.
+      
+      Pengguna diminta untuk memasukkan nilai persentase suku bunga tanpa menggunakan (%).
+      
+      Pengguna diminta untuk memasukkan lama periode dalam bulan.
+      
+      Program akan memberikan output perhitungan nilai akhir/saldo akhir setelah mendapatkan bunga.
+      
+      Pengguna diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak.
+      
+      Jika ya, maka pengguna diminta memasukkan nilai awal, persentase suku bunga, dan lama peruode kembali
+      
+      Jika tidak, maka pengguna akan kembali pada pemilihan jenis bunga bank yang akan dihitung.
+    
+    - Pilih Keluar
+    
+      Selesai
