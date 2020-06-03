@@ -22,17 +22,28 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
     Dilakukan pemilihan command system secara otomatis berdasarkan OS yang digunakan
     
   - Pemilihan fitur antara lain
-    1. Kalkulator Numerik
-    2. Kalkulator Konversi Suhu
-    3. Kalkulator Konversi Waktu
-    4. Kalkulator Konversi Mata Uang 
-    5. Kalkulator BBI 
-    6. Kalkulator Konversi Panjang 
-    7. Kalkulator Konversi Berat 
-    8. Kalkulator Konversi Luas benda
-    9. Kalkulator Volume Benda
-    10. Kalkulator Bunga Bank
-    11. Kalkulator Estimasi Penggunaan Listrik Bulanan
+    
+    1  Kalkulator Numerik
+    
+    2  Kalkulator Konversi Suhu
+    
+    3  Kalkulator Konversi Waktu
+    
+    4  Kalkulator Konversi Mata Uang 
+    
+    5  Kalkulator BBI 
+    
+    6  Kalkulator Konversi Panjang 
+    
+    7  Kalkulator Konversi Berat 
+    
+    8  Kalkulator Konversi Luas benda
+    
+    9  Kalkulator Volume Benda
+    
+    10  Kalkulator Bunga Bank
+    
+    11  Kalkulator Estimasi Penggunaan Listrik Bulanan
     
   - Fitur 1 : Penggunaan modul math dan perulangan
   
@@ -189,6 +200,34 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
         Jika ya maka pengguna diminta menginputkan jumlah uang kembali
         
         Jika tidak maka Selesai
+        
+    - Pilih online
+      
+      Pengguna diberikan peringatan dibutuhkannya koneksi internet
+      
+      Melakukan instalasi modul requests secara otomatis
+      
+      Diberikan pilihan konversi jenis mata uang yang tersedia pada server CNN
+      
+      Program otomatis memilih konversi jenis mata uang sesuai pilihan
+      
+      Pengguna diminta menginputkan jumlah uang
+      
+      Program melakukan request pada server
+      
+      Program mendapatkan response dari server
+      
+      Program menampilkan output hasil konversi
+      
+      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya maka pengguna diminta memilih konversi jenis mata uang kembali
+      
+      Jika tidak maka Selesai
+      
+    - Pilih keluar
+    
+      Selesai
         
   - Fitur 5 : Penggunaan percabangan dan perulangan
   
@@ -350,39 +389,11 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
       
     - Pilih Keluar
       
-      Selesai
-   
-    - Pilih online
-      
-      Pengguna diberikan peringatan dibutuhkannya koneksi internet
-      
-      Melakukan instalasi modul requests secara otomatis
-      
-      Diberikan pilihan konversi jenis mata uang yang tersedia pada server CNN
-      
-      Program otomatis memilih konversi jenis mata uang sesuai pilihan
-      
-      Pengguna diminta menginputkan jumlah uang
-      
-      Program melakukan request pada server
-      
-      Program mendapatkan response dari server
-      
-      Program menampilkan output hasil konversi
-      
-      Diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
-      
-      Jika ya maka pengguna diminta memilih konversi jenis mata uang kembali
-      
-      Jika tidak maka Selesai
-      
-    - Pilih keluar
-    
-      Selesai
+      Selesai 
       
   - Fitur 7 : Penggunaan percabangan dan pengulangan
      
-     Pemilihan satuan berat yang akan dikonversi.
+    Pemilihan satuan berat yang akan dikonversi.
      
     - Pilih Ton
       
@@ -486,19 +497,19 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
       
   - Fitur 8 : Penggunaan percabangan dan pengulangan
     
-     Pemilihan satuan luas yang akan dikonversi.
+    Pemilihan satuan luas yang akan dikonversi.
      
-     - Pilih Kilometer persegi
+    - Pilih Kilometer persegi
      
-       Pengguna diminta menginputkan nilai luas dalam satuan Kilometer persegi
+      Pengguna diminta menginputkan nilai luas dalam satuan Kilometer persegi
      
-       Program memberikan output dari berbagai jenis satuan luas
+      Program memberikan output dari berbagai jenis satuan luas
      
-       Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
      
-       Jika ya, maka pengguna menginputkan kembali nilai luas
+      Jika ya, maka pengguna menginputkan kembali nilai luas
      
-       Jika tidak, maka selesai
+      Jika tidak, maka selesai
 
     - Pilih Hektometer persegi (Hektar)
     
@@ -578,7 +589,7 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
 
   - Fitur 9 : Penggunaan percabangan dan pengulangan
  
-     Perhitungan volume pada bangun ruang dengan satuan apa saja tetapi sejenis.
+    Perhitungan volume pada bangun ruang dengan satuan apa saja tetapi sejenis.
      
     - Pilih Kubus
     
@@ -676,13 +687,13 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
       
       Jika tidak, maka selesai
       
-     - Pilih Keluar
+    - Pilih Keluar
 
-       Selesai
+      Selesai
      
   - Fitur 10 : Penggunaan Definisi, Percabangan, dan Perulangan
   
-     Pemilihan jenis bunga bank yang akan dihitung, terdiri dari: Bunga Sederhana dan Bunga Majemuk.
+    Pemilihan jenis bunga bank yang akan dihitung, terdiri dari: Bunga Sederhana dan Bunga Majemuk.
      
     - Pilih Bunga Sederhana
     
@@ -719,3 +730,33 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
     - Pilih Keluar
     
       Selesai
+     
+  - Fitur 11 : Penggunaan list, operasi matriks, percabangan, dan perulangan
+  
+    - Input data
+  
+      Pengguna diminta menginputkan nama barang elektronik
+    
+      Pengguna diminta menginputkan daya barang elektronik
+    
+      Pengguna diminta menginputkan lama waktu penggunaan barang dalam sehari
+    
+      Pengguna diberikan pilihan untuk menginputkan kembali data, ya atau tidak
+      
+      Jika ya, maka pengguna diminta input data kembali
+      
+      Jika tidak, maka pengguna diminta menginputkan harga listrik per Kwh
+      
+    - Olah data
+      
+      Program melakukan perhitungan terhadap data yang telah diinputkan menggunakan operasi matriks
+      
+      Program memberikan output nilai estimasi biaya penggunaan listrik bulanan
+      
+    - Pengulangan
+    
+      Pengguna diberikan pilihan untuk menggunakan kembali fitur, ya atau tidak
+      
+      Jika ya, maka pengguna diminta input data kembali
+      
+      Jika tidak, maka selesai
