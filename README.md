@@ -380,6 +380,110 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
     
       Selesai
       
+  - Fitur 7 : Penggunaan percabangan dan pengulangan
+     
+     Pemilihan satuan berat yang akan dikonversi.
+     
+    - Pilih Ton
+      
+      Pengguna diminta menginputkan niai berat dalam satuan Ton
+      
+      Program memberikan output dari berbagai jenis satuan berat
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya maka pengguna menginputkan kembali nilai berat
+      
+      Jika tidak maka selesai
+      
+    - Pilih Kilogram
+    
+      Pengguna diminta menginputkan niai berat dalam satuan Kilogram
+      
+      Program memberikan output dari berbagai jenis satuan berat
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya maka pengguna menginputkan kembali nilai berat
+      
+      Jika tidak maka selesai
+      
+    - Pilih Hektogram 
+    
+      Pengguna diminta menginputkan niai berat dalam satuan Hektogram
+      
+      Program memberikan output dari berbagai jenis satuan berat
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya maka pengguna menginputkan kembali nilai berat
+      
+      Jika tidak maka selesai
+    
+    - Pilih Dekagram
+    
+      Pengguna diminta menginputkan niai berat dalam satuan Dekagram
+      
+      Program memberikan output dari berbagai jenis satuan berat
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya maka pengguna menginputkan kembali nilai berat
+      
+      Jika tidak maka selesai
+      
+    - Pilih Gram
+    
+      Pengguna diminta menginputkan niai berat dalam satuan Gram
+      
+      Program memberikan output dari berbagai jenis satuan berat
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya maka pengguna menginputkan kembali nilai berat
+      
+      Jika tidak maka selesai
+      
+    - Pilih Desigram
+    
+      Pengguna diminta menginputkan niai berat dalam satuan Desigram
+      
+      Program memberikan output dari berbagai jenis satuan berat
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya maka pengguna menginputkan kembali nilai berat
+      
+      Jika tidak maka selesai
+      
+    - Pilih Centigram
+    
+      Pengguna diminta menginputkan niai berat dalam satuan Centigram
+      
+      Program memberikan output dari berbagai jenis satuan berat
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya maka pengguna menginputkan kembali nilai berat
+      
+      Jika tidak maka selesai
+      
+    - Pilih Miligram
+    
+      Pengguna diminta menginputkan niai berat dalam satuan Miligram
+      
+      Program memberikan output dari berbagai jenis satuan berat
+      
+      Diberikan pilihan apakah akan mengulangi fitur, ya atau tidak
+      
+      Jika ya maka pengguna menginputkan kembali nilai berat
+      
+      Jika tidak maka selesai
+      
+    - Pilih Keluar
+    
+      Keluar dari program konversi berat
+     
   - Fitur 10 : Penggunaan Definisi, Percabangan, dan Perulangan
   
      Pemilihan jenis bunga bank yang akan dihitung, terdiri dari: Bunga Sederhana dan Bunga Majemuk.
