@@ -7,7 +7,8 @@
 from os import system
 from data import clr
 
-while True:
+iterasi = True
+while iterasi:
     system(clr.d)
     print('KALKULATOR VOLUME BANGUN RUANG')
     print("""----------------------------------------------
@@ -25,8 +26,9 @@ Pilih Bangun Ruang :
 
     jenis = input('Bangun Ruang: ')
 
-    while True:
-        if jenis == '1':
+    if jenis == '1':
+        loop = True
+        while loop == True:
             system(clr.d)
             print('MENGHITUNG VOLUME KUBUS')
             s=float(input('sisi:'))
@@ -37,7 +39,9 @@ Pilih Bangun Ruang :
             if ulang != 'y':
                 break
     
-        elif jenis == '2':
+    elif jenis == '2':
+        loop = True
+        while loop == True:
             system(clr.d)
             print('MENGHITUNG VOLUME BALOK')
             p=float(input('panjang:'))
@@ -50,7 +54,9 @@ Pilih Bangun Ruang :
             if ulang != 'y':
                 break
     
-        elif jenis == '3':
+    elif jenis == '3':
+        loop = True
+        while loop == True:
             system(clr.d)
             print('MENGHITUNG VOLUME PRISMA SEGITIGA')
             a=float(input('alas:'))
@@ -64,7 +70,9 @@ Pilih Bangun Ruang :
             if ulang != 'y':
                 break
 
-        elif jenis == '4':
+    elif jenis == '4':
+        loop = True
+        while loop == True:
             system(clr.d)
             print('MENGHITUNG VOLUME LIMAS SEGITIGA')
             a=float(input('alas:'))
@@ -78,7 +86,9 @@ Pilih Bangun Ruang :
             if ulang != 'y':
                 break
  
-        elif jenis == '5':
+    elif jenis == '5':
+        loop = True
+        while loop == True:
             system(clr.d)
             print('MENGHITUNG VOLUME LIMAS SEGIEMPAT')
             p=float(input('panjang alas:'))
@@ -91,8 +101,10 @@ Pilih Bangun Ruang :
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
                 break
-    
-        elif jenis == '6':
+            
+    elif jenis == '6':
+        loop = True
+        while loop == True:
             system(clr.d)
             print('MENGHITUNG VOLUME TABUNG')
             r=float(input('jari-jari:'))
@@ -105,7 +117,9 @@ Pilih Bangun Ruang :
             if ulang != 'y':
                 break
     
-        elif jenis == '7':
+    elif jenis == '7':
+        loop = True
+        while loop == True:
             system(clr.d)
             print('MENGHITUNG VOLUME KERUCUT')
             r=float(input('jari-jari:'))
@@ -118,7 +132,9 @@ Pilih Bangun Ruang :
             if ulang != 'y':
                 break
     
-        elif jenis == '8':
+    elif jenis == '8':
+        loop = True
+        while loop == True:
             system(clr.d)
             print('MENGHITUNG VOLUME BOLA')
             r=float(input('jari-jari:'))
@@ -129,6 +145,12 @@ Pilih Bangun Ruang :
             if ulang != 'y':
                 break
 
-        elif jenis == '0':
-            system(clr.d)
-            break
+    elif jenis == '0':
+        system(clr.d)
+        break
+        
+        
+        
+        
+        
+        
