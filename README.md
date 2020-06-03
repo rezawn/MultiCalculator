@@ -45,6 +45,10 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
     
     11  Kalkulator Estimasi Penggunaan Listrik Bulanan
     
+    12  Informasi Program
+    
+    0  Keluar
+    
   - Fitur 1 : Penggunaan modul math dan perulangan
   
     Pengguna diminta menginputkan operasi matematika yang ingin di selesaikan
@@ -760,3 +764,13 @@ Program multi kalkulator ini merupakan program yang bisa digunakan untuk menghit
       Jika ya, maka pengguna diminta input data kembali
       
       Jika tidak, maka selesai
+      
+  - Fitur 12
+    
+    Ditampilkan output informasi program
+    
+    Selesai
+    
+  - Fitur 0
+    
+    Selesai
