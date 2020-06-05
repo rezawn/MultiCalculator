@@ -61,9 +61,9 @@ Pilih Bangun Ruang :
             print('MENGHITUNG VOLUME PRISMA SEGITIGA')
             a=float(input('alas:'))
             t=float(input('tinggi alas segitiga:'))
-            T=float(input('tinggi prisma:'))
+            Tp=float(input('tinggi prisma:'))
             LA=(a*t)/2
-            v=LA*T
+            v=LA*Tp
             print('Volume Prisma Segitiga: ',v)
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
@@ -77,9 +77,9 @@ Pilih Bangun Ruang :
             print('MENGHITUNG VOLUME LIMAS SEGITIGA')
             a=float(input('alas:'))
             t=float(input('tinggi alas segitiga:'))
-            T=float(input('tinggi limas:'))
+            Tl=float(input('tinggi limas:'))
             LA=(a*t)/2
-            v=(LA*T)/3
+            v=(LA*Tl)/3
             print('Volume Limas Segitiga: ',v)
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
@@ -93,9 +93,9 @@ Pilih Bangun Ruang :
             print('MENGHITUNG VOLUME LIMAS SEGIEMPAT')
             p=float(input('panjang alas:'))
             l=float(input('lebar alas:'))
-            T=float(input('tinggi limas:'))
+            Tl=float(input('tinggi limas:'))
             LA=p*l
-            v=(LA*T)/3
+            v=(LA*Tl)/3
             print('Volume Limas Segitiga: ',v)
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
@@ -108,9 +108,9 @@ Pilih Bangun Ruang :
             system(clr.d)
             print('MENGHITUNG VOLUME TABUNG')
             r=float(input('jari-jari:'))
-            T=float(input('tinggi tabung:'))
+            Tt=float(input('tinggi tabung:'))
             LA=(22/7.0)*r*r
-            v=LA*T
+            v=LA*Tt
             print('Volume Tabung: ',v)
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
@@ -123,9 +123,9 @@ Pilih Bangun Ruang :
             system(clr.d)
             print('MENGHITUNG VOLUME KERUCUT')
             r=float(input('jari-jari:'))
-            T=float(input('tinggi kerucut:'))
+            Tk=float(input('tinggi kerucut:'))
             LA=(22/7.0)*r*r
-            v=(LA*T)/3
+            v=(LA*Tk)/3
             print('Volume Kerucut: ',v)
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
