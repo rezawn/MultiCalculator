@@ -63,14 +63,48 @@ Pilih kategori Anda
       
       #Tinggi badan dalam satuan cm
       TB = float(input('Tinggi Badan dalam Satuan Cm : '))
+      BBA = float(input('Berat Badan saat ini dalam Kg : '))
       
       Bbi_pria=(TB-100)-((TB-100)*(10/100))
       
       print("Berat Badan Ideal (kg) : ",Bbi_pria)
-      ulang = input('Apakah anda ingin menggunakan kategori ini lagi? (y/n) ')
-      if ulang != 'y':
-        break
-        
+      
+      BMin = (90/100)*Bbi_pria
+      BMax = (120/100)*Bbi_pria
+      
+      if BBA<=(90/100)*Bbi_pria:
+        print("Batas minimum Berat Badan Anda dalam satuan Kg adalah : ",BMin)
+        print("Batas maksimum Berat Badan Anda dalam satuan Kg adalah : ",BMax)
+        print("Berat Badan Anda saat ini adalah Kurang")
+        ulang = input('Apakah anda ingin menggunakan kategori ini lagi? (y/n) ')
+        if ulang != 'y':
+          break
+       
+      elif (90/100)*Bbi_pria<BBA<=(110/100)*Bbi_pria:
+        print("Batas minimum Berat Badan Anda dalam satuan Kg adalah : ",BMin)
+        print("Batas maksimum Berat Badan Anda dalam satuan Kg adalah : ",BMax)
+        print("Berat Badan Anda saat ini adalah Normal")
+        ulang = input('Apakah anda ingin menggunakan kategori ini lagi? (y/n) ')
+        if ulang != 'y':
+          break
+          
+      elif (110/100)*Bbi_pria<BBA<=(120/100)*Bbi_pria:
+        print("Batas minimum Berat Badan Anda dalam satuan Kg adalah : ",BMin)
+        print("Batas maksimum Berat Badan Anda dalam satuan Kg adalah : ",BMax)
+        print("Berat Badan Anda saat ini adalah Berlebih")
+        ulang = input('Apakah anda ingin menggunakan kategori ini lagi? (y/n) ')
+        if ulang != 'y':
+          break
+          
+      elif BBA>(120/100)*Bbi_pria:
+        print("Batas minimum Berat Badan Anda dalam satuan Kg adalah : ",BMin)
+        print("Batas maksimum Berat Badan Anda dalam satuan Kg adalah : ",BMax)
+        print("Badan Anda saat ini adalah Gemuk")
+        ulang = input('Apakah anda ingin menggunakan kategori ini lagi? (y/n) ')
+        if ulang != 'y':
+          break
+          
+  
   elif jenis == '4':
     iterasi = True
     while iterasi:
@@ -79,14 +113,47 @@ Pilih kategori Anda
       
       #Tinggi badam dalam satuan cm
       TB = float(input('Tinggi Badan dalam Satuan Cm : '))
+      BBA = float(input('Berat Badan saat ini dalam Kg : '))
       
       Bbi_wanita=(TB-100)-((TB-100)*(15/100))
       
       print("Berat Badan Ideal (kg) : ",Bbi_wanita)
-      ulang = input('Apakah Anda ingin menggunakan kategori ini lagi? (y/n) ')
-      if ulang != 'y':
-        break
-        
+      
+      BMin = (90/100)*Bbi_wanita
+      BMax = (120/100)*Bbi_wanita
+      
+      if BBA<=(90/100)*Bbi_wanita:
+        print("Batas minimum Berat Badan Anda dalam satuan Kg adalah : ",BMin)
+        print("Batas maksimum Berat Badan Anda dalam satuan Kg adalah : ",BMax)
+        print("Berat Badan Anda saat ini adalah Kurang")
+        ulang = input('Apakah Anda ingin menggunakan kategori ini lagi? (y/n) ')
+        if ulang != 'y':
+          break
+          
+      elif (90/100)*Bbi_wanita<BBA<=(110/100)*Bbi_wanita:
+        print("Batas minimum Berat Badan Anda dalam satuan Kg adalah : ",BMin)
+        print("Batas maksimum Berat Badan Anda dalam satuan Kg adalah : ",BMax)
+        print("Berat Badan Anda saat ini adalah Normal")
+        ulang = input('Apakah Anda ingin menggunakan kategori ini lagi? (y/n) ')
+        if ulang != 'y':
+          break
+          
+      elif (110/100)*Bbi_wanita<BBA<=(120/100)*Bbi_wanita:
+        print("Batas minimum Berat Badan Anda dalam satuan Kg adalah : ",BMin)
+        print("Batas maksimum Berat Badan Anda dalam satuan Kg adalah : ",BMax)
+        print("Berat Badan Anda saat ini adalah Berlebih")
+        ulang = input('Apakah Anda ingin menggunakan kategori ini lagi? (y/n) ')
+        if ulang != 'y':
+          break
+          
+      elif BBA>(120/100)*Bbi_wanita:
+        print("Batas minimum Berat Badan Anda dalam satuan Kg adalah : ",BMin)
+        print("Batas maksimum Berat Badan Anda dalam satuan Kg adalah : ",BMax)
+        print("Badan Anda saat ini adalah Gemuk")
+        ulang = input('Apakah Anda ingin menggunakan kategori ini lagi? (y/n) ')
+        if ulang != 'y':
+          break
+          
   elif jenis == '5':
     iterasi = True
     while iterasi:
