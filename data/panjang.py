@@ -31,23 +31,23 @@ Pilih satuan panjang yang akan dikonversi
       system(clr.d)
       print('MENGKONVERSI NILAI PANJANG DALAM SATUAN KILOMETER')
       
-      a = float(input('Inputkan nilai panjang dalam satuan kilometer : '))
+      PKm = float(input('Inputkan nilai panjang dalam satuan kilometer : '))
       
-      b = a*10
-      c = a*100
-      d = a*1000
-      e = a*10000
-      f = a*100000
-      g = a*1000000
+      PHm = PKm*10
+      PDam = PKm*100
+      PM = PKm*1000
+      PDm = PKm*10000
+      PCm = PKm*100000
+      PMm = PKm*1000000
       
       print()
-      print(f"""Panjang dalam {a} kilometer dikonversi menjadi
-Hektometer = {b} hm
-Dekameter = {c} dam
-Meter = {d} m
-Desimeter = {e} dm
-Centimeter = {f} cm
-Milimeter = {g} mm""")
+      print(f"""Panjang dalam {PKm} kilometer dikonversi menjadi
+Hektometer = {PHm} hm
+Dekameter = {PDam} dam
+Meter = {PM} m
+Desimeter = {PDm} dm
+Centimeter = {PCm} cm
+Milimeter = {PMm} mm""")
       print()
       ulang = input('Apakah Anda ingin menggunakan konversi ini lagi? (y/n) ')
       if ulang != 'y':
@@ -59,23 +59,23 @@ Milimeter = {g} mm""")
       system(clr.d)
       print('MENGKONVERSI NILAI PANJANG DALAM SATUAN HEKTOMETER')
       
-      a = float(input('Inputkan nilai panjang dalam satuan hektometer : '))
+      PHm = float(input('Inputkan nilai panjang dalam satuan hektometer : '))
       
-      b = a/10
-      c = a*10
-      d = a*100
-      e = a*1000
-      f = a*10000
-      g = a*100000
+      PKm = PHm/10
+      PDam = PHm*10
+      PM = PHm*100
+      PDm = PHm*1000
+      PCm = PHm*10000
+      PMm = PHm*100000
       
       print()
-      print(f"""Panjang dalam {a} hektometer dikonversi menjadi
-Kilometer = {b} km
-Dekameter = {c} hm
-Meter = {d} m
-Desimeter = {e} dm
-Centimeter = {f} cm
-Milimeter = {g} mm""")
+      print(f"""Panjang dalam {PHm} hektometer dikonversi menjadi
+Kilometer = {PKm} km
+Dekameter = {PDam} hm
+Meter = {PM} m
+Desimeter = {PDm} dm
+Centimeter = {PCm} cm
+Milimeter = {PMm} mm""")
       print()
       ulang = input('Apakah Anda ingin menggunakan konversi ini lagi? (y/n) ')
       if ulang != 'y':
@@ -87,23 +87,23 @@ Milimeter = {g} mm""")
       system(clr.d)
       print('MENGKONVERSI NILAI PANJANG DALAM SATUAN DEKAMETER')
       
-      a = float(input('Inputkan nilai panjang dalam satuan dekameter : '))
+      PDam = float(input('Inputkan nilai panjang dalam satuan dekameter : '))
       
-      b = a/100
-      c = a/10
-      d = a*10
-      e = a*100
-      f = a*1000
-      g = a*10000
+      PKm = PDam/100
+      PHm = PDam/10
+      PM = PDam*10
+      PDm = PDam*100
+      PCm = PDam*1000
+      PMm = PDam*10000
       
       print()
-      print(f"""Panjang dalam {a} dekameter dikonversi menjadi
-Kilometer = {b} km
-Hektometer = {c} hm
-Meter = {d} m
-Desimeter = {e} dm
-Centimeter = {f} cm
-Milimeter = {g} mm""")
+      print(f"""Panjang dalam {PDam} dekameter dikonversi menjadi
+Kilometer = {PKm} km
+Hektometer = {PHm} hm
+Meter = {PM} m
+Desimeter = {PDm} dm
+Centimeter = {PCm} cm
+Milimeter = {PMm} mm""")
       print()
       ulang = input('Apakah Anda ingin menggunakan konversi ini lagi? (y/n) ')
       if ulang != 'y':
@@ -115,23 +115,23 @@ Milimeter = {g} mm""")
       system(clr.d)
       print('MENGKONVERSI NILAI PANJANG DALAM SATUAN METER')
       
-      a = float(input('Inputkan nilai panjang dalam satuan meter : '))
+      PM = float(input('Inputkan nilai panjang dalam satuan meter : '))
       
-      b = a/1000
-      c = a/100
-      d = a/10
-      e = a*10
-      f = a*100
-      g = a*1000
+      PKm = PM/1000
+      PHm = PM/100
+      PDam = PM/10
+      PDm = PM*10
+      PCm = PM*100
+      PMm = PM*1000
       
       print()
-      print(f"""Panjang dalam {a} meter dikonversi menjadi
-Kilometer = {b} km
-Hektometer = {c} hm
-Dekameter = {d} dam
-Desimeter = {e} dm
-Centimeter = {f} cm
-Milimeter = {g} mm""")
+      print(f"""Panjang dalam {PM} meter dikonversi menjadi
+Kilometer = {PKm} km
+Hektometer = {PHm} hm
+Dekameter = {PDam} dam
+Desimeter = {PDm} dm
+Centimeter = {PCm} cm
+Milimeter = {PMm} mm""")
       print()
       ulang = input('Apakah Anda ingin menggunakan konversi ini lagi? (y/n) ')
       if ulang != 'y':
@@ -143,23 +143,23 @@ Milimeter = {g} mm""")
       system(clr.d)
       print('MENGKONVERSI NILAI PANJANG DALAM SATUAN DESIMETER')
       
-      a = float(input('Inputkan nilai panjang dalam satuan desimeter : '))
+      PDm = float(input('Inputkan nilai panjang dalam satuan desimeter : '))
       
-      b = a/10000
-      c = a/1000
-      d = a/100
-      e = a/10
-      f = a*10
-      g = a*100
+      PKm = PDm/10000
+      PHm = PDm/1000
+      PDam = PDm/100
+      PM = PDm/10
+      PCm = PDm*10
+      PMm = PDm*100
       
       print()
-      print(f"""Panjang dalam {a} desimeter dikonversi menjadi
-Kilometer = {b} km
-Hektometer = {c} hm
-Dekameter = {d} dam
-Meter = {e} m
-Centimeter = {f} cm
-Milimeter = {g} mm""")
+      print(f"""Panjang dalam {PDm} desimeter dikonversi menjadi
+Kilometer = {PKm} km
+Hektometer = {PHm} hm
+Dekameter = {PDam} dam
+Meter = {PM} m
+Centimeter = {PCm} cm
+Milimeter = {PMm} mm""")
       print()
       ulang = input('Apakah Anda ingin menggunakan konversi ini lagi? (y/n) ')
       if ulang != 'y':
@@ -171,23 +171,23 @@ Milimeter = {g} mm""")
       system(clr.d)
       print('MENGKONVERSI NILAI PANJANG DALAM SATUAN CENTIMETER')
       
-      a = float(input('Inputkan nilai panjang dalam satuan centimeter : '))
+      PCm = float(input('Inputkan nilai panjang dalam satuan centimeter : '))
       
-      b = a/100000
-      c = a/10000
-      d = a/1000
-      e = a/100
-      f = a/10
-      g = a*10
+      PKm = PCm/100000
+      PHm = PCm/10000
+      PDam = PCm/1000
+      PM = PCm/100
+      PDm = PCm/10
+      PMm = PCm*10
       
       print()
-      print(f"""Panjang dalam {a} centimeter dikonversi menjadi
-Kilometer = {b} km
-Hektometer = {c} hm
-Dekameter = {d} dam
-Meter = {e} m
-Desimeter = {f} dm
-Milimeter = {g} mm""")
+      print(f"""Panjang dalam {PCm} centimeter dikonversi menjadi
+Kilometer = {PKm} km
+Hektometer = {PHm} hm
+Dekameter = {PDam} dam
+Meter = {PM} m
+Desimeter = {PDm} dm
+Milimeter = {PMm} mm""")
       print()
       ulang = input('Apakah Anda ingin menggunakan konversi ini lagi? (y/n) ')
       if ulang != 'y':
@@ -199,23 +199,23 @@ Milimeter = {g} mm""")
       system(clr.d)
       print('MENGKONVERSI NILAI PANJANG DALAM SATUAN MILIMETER')
       
-      a = float(input('Inputkan nilai panjang dalam satuan milimeter : '))
+      PMm = float(input('Inputkan nilai panjang dalam satuan milimeter : '))
       
-      b = a/1000000
-      c = a/100000
-      d = a/10000
-      e = a/1000
-      f = a/100
-      g = a/10
+      PKm = PMm/1000000
+      PHm = PMm/100000
+      PDam = PMm/10000
+      PM = PMm/1000
+      PDm = PMm/100
+      PCm = PMm/10
       
       print()
-      print(f"""Panjang dalam {a} milimeter dikonversi menjadi
-Kilometer = {b} km
-Hektometer = {c} hm
-Dekameter = {d} dam
-Meter = {e} m
-Desimeter = {f} dm
-Centimeter = {g} cm""")
+      print(f"""Panjang dalam {PMm} milimeter dikonversi menjadi
+Kilometer = {PKm} km
+Hektometer = {PHm} hm
+Dekameter = {PDam} dam
+Meter = {PM} m
+Desimeter = {PDm} dm
+Centimeter = {PCm} cm""")
       print()
       ulang = input('Apakah Anda ingin menggunakan konversi ini lagi? (y/n) ')
       if ulang != 'y':
