@@ -48,7 +48,7 @@ Pilih kategori Anda
       #usia dalam satuan tahun
       UA = float(input('Usia Anak dalam Satuan Tahun : '))
       
-      Bbi_anak=(2*UB)+8
+      Bbi_anak=(2*UA)+8
       
       print("Berat Badan Ideal (kg) : ",Bbi_anak)
       ulang = input('Apakah Anda ingin menggunakan kategori ini lagi? (y/n) ')
