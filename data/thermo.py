@@ -26,17 +26,17 @@ Pilih derajat suhu yang ingin anda konversi
             system(clr.d)
             print('MENGKONVERSI SUHU DARI DERAJAT CELCIUS')
             print('-------------------------------------------------------')
-            a = float(input('Inputkan suhu dalam celcius: '))
+            C = float(input('Inputkan suhu dalam celcius: '))
                 
-            b = (4/5)*a
-            c = ((9/5)*a)+32
-            d = a+273
+            R = (4/5)*C
+            F = ((9/5)*C)+32
+            K = C+273
                 
             print()
-            print(f"""Suhu dalam {a} derajat celcius dikonversi menjadi
-Reamur     : {b} derajat reamur
-Fahrenheit : {c} derajat fahrenheit
-Kelvin     : {d} kelvin""")
+            print(f"""Suhu dalam {C} derajat celcius dikonversi menjadi
+Reamur     : {R} derajat reamur
+Fahrenheit : {F} derajat fahrenheit
+Kelvin     : {K} kelvin""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
@@ -47,17 +47,17 @@ Kelvin     : {d} kelvin""")
             system(clr.d)
             print('MENGKONVERSI SUHU DARI DERAJAT REAMUR')
             print('-------------------------------------------------------')
-            a = float(input('Inputkan suhu dalam reamur: '))
+            R = float(input('Inputkan suhu dalam reamur: '))
                     
-            b = (5/4)*a
-            c = ((9/4)*a)+32
-            d = ((5/4)*a)+273
+            C = (5/4)*R
+            F = ((9/4)*R)+32
+            K = ((5/4)*R)+273
                     
             print()
-            print(f"""Suhu dalam {a} derajat reamur dikonversi menjadi
-Celcius    : {b} derajat celcius
-Fahrenheit : {c} derajat fahrenheit
-Kelvin     : {d} kelvin""")
+            print(f"""Suhu dalam {R} derajat reamur dikonversi menjadi
+Celcius    : {C} derajat celcius
+Fahrenheit : {F} derajat fahrenheit
+Kelvin     : {K} kelvin""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
@@ -68,17 +68,17 @@ Kelvin     : {d} kelvin""")
             system(clr.d)
             print('MENGKONVERSI SUHU DARI DERAJAT FAHRENHEIT')
             print('-------------------------------------------------------')
-            a = float(input('Inputkan suhu dalam fahrenheit: '))
+            F = float(input('Inputkan suhu dalam fahrenheit: '))
                     
-            b = ((5/9)*(a-32))
-            c = ((4/9)*(a-32))
-            d = (((5/9)*(a-32))+273)
+            C = ((5/9)*(F-32))
+            R = ((4/9)*(F-32))
+            K = (((5/9)*(F-32))+273)
                     
             print()
-            print(f"""Suhu dalam {a} derajat fahrenheit dikonversi menjadi
-Celcius    : {b} derajat celcius
-Reamur     : {c} derajat reamur
-Kelvin     : {d} kelvin""")
+            print(f"""Suhu dalam {F} derajat fahrenheit dikonversi menjadi
+Celcius    : {C} derajat celcius
+Reamur     : {R} derajat reamur
+Kelvin     : {K} kelvin""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
@@ -89,17 +89,17 @@ Kelvin     : {d} kelvin""")
             system(clr.d)
             print('MENGKONVERSI SUHU DARI KELVIN')
             print('-------------------------------------------------------')
-            a = float(input('Inputkan suhu dalam kelvin: '))
+            K = float(input('Inputkan suhu dalam kelvin: '))
                     
-            b = a-273
-            c = (a-273)*4/5
-            d = ((a-273)*(9/5))+32
+            C = K-273
+            R = (K-273)*4/5
+            F = ((K-273)*(9/5))+32
                     
             print()
-            print(f"""Suhu dalam {a} kelvin dikonversi menjadi
-Celcius    : {b} derajat celcius
-Reamur     : {c} derajat reamur
-Fahrenheit : {d} derajat fahrenheit""")
+            print(f"""Suhu dalam {K} kelvin dikonversi menjadi
+Celcius    : {C} derajat celcius
+Reamur     : {R} derajat reamur
+Fahrenheit : {F} derajat fahrenheit""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
