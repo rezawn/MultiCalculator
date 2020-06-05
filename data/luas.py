@@ -31,23 +31,23 @@ Pilih satuan luas yang akan dikonversi
             system(clr.d)
             print('MENGKONVERSI NILAI LUAS DALAM SATUAN KILOMETER PERSEGI')
             
-            a = float(input('Inputkan nilai luas dalam satuan kilometer persegi : '))
+            LKm = float(input('Inputkan nilai luas dalam satuan kilometer persegi : '))
             
-            b = a*10**2
-            c = a*10**4
-            d = a*10**6
-            e = a*10**8
-            f = a*10**10
-            g = a*10**12
+            LHm = LKm*10**2
+            LDam = LKm*10**4
+            LM = LKm*10**6
+            LDm = LKm*10**8
+            LCm = LKm*10**10
+            LMm = LKm*10**12
             
             print()
-            print(f"""Luas dalam {a} kilometer persegi dikonversi menjadi
-1. Hektometer persegi (Hektare) = {b} hm persegi
-2. Dekameter persegi (Are) = {c} dam persegi
-3. Meter persegi = {d} m persegi
-4. Desimeter persegi = {e} dm persegi
-5. Centimeter persegi = {f} cm persegi
-6. Milimeter persegi = {g} mm persegi""")
+            print(f"""Luas dalam {LKm} kilometer persegi dikonversi menjadi
+1. Hektometer persegi (Hektare) = {LHm} hm persegi
+2. Dekameter persegi (Are) = {LDam} dam persegi
+3. Meter persegi = {LM} m persegi
+4. Desimeter persegi = {LDm} dm persegi
+5. Centimeter persegi = {LCm} cm persegi
+6. Milimeter persegi = {LMm} mm persegi""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
@@ -59,23 +59,23 @@ Pilih satuan luas yang akan dikonversi
             system(clr.d)
             print('MENGKONVERSI NILAI LUAS DALAM SATUAN HEKTOMETER PERSEGI ATAU HEKTAR')
             
-            a = float(input('Inputkan nilai luas dalam satuan hektometer persegi (hektar) : '))
+            LHm = float(input('Inputkan nilai luas dalam satuan hektometer persegi (hektar) : '))
             
-            b = a/10**2
-            c = a*10**2
-            d = a*10**4
-            e = a*10**6
-            f = a*10**8
-            g = a*10**10
+            LKm = LHm/10**2
+            LDam = LHm*10**2
+            LM = LHm*10**4
+            LDm = LHm*10**6
+            LCm = LHm*10**8
+            LMm = LHm*10**10
             
             print()
-            print(f"""Luas dalam {a} hektometer persegi (hektar) dikonversi menjadi
-1. Kilometer persegi = {b} km persegi    
-2. Dekameter persegi (Are) = {c} dam persegi
-3. Meter persegi = {d} m persegi
-4. Desimeter persegi = {e} dm persegi
-5. Centimeter persegi = {f} cm persegi
-6. Milimeter persegi = {g} mm persegi""")
+            print(f"""Luas dalam {LHm} hektometer persegi (hektar) dikonversi menjadi
+1. Kilometer persegi = {LKm} km persegi    
+2. Dekameter persegi (Are) = {LDam} dam persegi
+3. Meter persegi = {LM} m persegi
+4. Desimeter persegi = {LDm} dm persegi
+5. Centimeter persegi = {LCm} cm persegi
+6. Milimeter persegi = {LMm} mm persegi""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
@@ -87,23 +87,23 @@ Pilih satuan luas yang akan dikonversi
             system(clr.d)
             print('MENGKONVERSI NILAI LUAS DALAM SATUAN DEKAMETER PERSEGI ATAU ARE')
             
-            a = float(input('Inputkan nilai luas dalam satuan dekameter (are) persegi : '))
+            LDam = float(input('Inputkan nilai luas dalam satuan dekameter (are) persegi : '))
             
-            b = a/10**4
-            c = a/10**2
-            d = a*10**2
-            e = a*10**4
-            f = a*10**6
-            g = a*10**8
+            LKm = LDam/10**4
+            LHm = LDam/10**2
+            LM = LDam*10**2
+            LDm = LDam*10**4
+            LCm = LDam*10**6
+            LMm = LDam*10**8
             
             print()
-            print(f"""Luas dalam {a} dekameter persegi (are) dikonversi menjadi
-1. Kilometer persegi = {b} km persegi
-2. Hektometer persegi (hektar) = {c} hm persegi
-3. Meter persegi = {d} m persegi
-4. Desimeter persegi = {e} dm persegi          
-5. Centimeter persegi = {f} cm persegi
-6. Milimeter persegi = {g} mm persegi""")
+            print(f"""Luas dalam {LDam} dekameter persegi (are) dikonversi menjadi
+1. Kilometer persegi = {LKm} km persegi
+2. Hektometer persegi (hektar) = {LHm} hm persegi
+3. Meter persegi = {LM} m persegi
+4. Desimeter persegi = {LDm} dm persegi          
+5. Centimeter persegi = {LCm} cm persegi
+6. Milimeter persegi = {LMm} mm persegi""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
@@ -115,23 +115,23 @@ Pilih satuan luas yang akan dikonversi
             system(clr.d)
             print('MENGKONVERSI NILAI LUAS DALAM SATUAN METER PERSEGI')
             
-            a = float(input('Inputkan nilai luas dalam satuan meter persegi : '))
+            LM = float(input('Inputkan nilai luas dalam satuan meter persegi : '))
             
-            b = a/10**6
-            c = a/10**4
-            d = a/10**2
-            e = a*10**2
-            f = a*10**4
-            g = a*10**6
+            LKm = LM/10**6
+            LHm = LM/10**4
+            LDam = LM/10**2
+            LDm = LM*10**2
+            LCm = LM*10**4
+            LMm = LM*10**6
             
             print()
-            print(f"""Luas dalam {a} meter persegi dikonversi menjadi
-1. Kilometer persegi = {b} km persegi
-2. Hektometer persegi (hektar) = {c} hm persegi
-3. Dekameter persegi (are) = {d} dam persegi
-4. Desimeter persegi = {e} dm persegi
-5. Centimeter persegi = {f} cm persegi
-6. Milimeter persegi = {g} mm persegi""")
+            print(f"""Luas dalam {LM} meter persegi dikonversi menjadi
+1. Kilometer persegi = {LKm} km persegi
+2. Hektometer persegi (hektar) = {LHm} hm persegi
+3. Dekameter persegi (are) = {LDam} dam persegi
+4. Desimeter persegi = {LDm} dm persegi
+5. Centimeter persegi = {LCm} cm persegi
+6. Milimeter persegi = {LMm} mm persegi""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
@@ -143,23 +143,23 @@ Pilih satuan luas yang akan dikonversi
             system(clr.d)
             print('MENGKONVERSI NILAI LUAS DALAM SATUAN DESIMETER PERSEGI')
             
-            a = float(input('Inputkan nilai luas dalam satuan desimeter persegi : '))
+            LDm = float(input('Inputkan nilai luas dalam satuan desimeter persegi : '))
             
-            b = a/10**8
-            c = a/10**6
-            d = a/10**4
-            e = a/10**2
-            f = a*10**2
-            g = a*10**4
+            LKm = LDm/10**8
+            LHm = LDm/10**6
+            LDam = LDm/10**4
+            LM = LDm/10**2
+            LCm = LDm*10**2
+            LMm = LDm*10**4
             
             print()
-            print(f"""Luas dalam {a} desimeter persegi dikonversi menjadi
-1. Kilometer persegi = {b} km persegi
-2. Hektometer persegi (hektar) = {c} hm persegi
-3. Dekameter persegi (are) = {d} dam persegi
-4. Meter persegi = {e} m persegi
-5. Centimeter persegi = {f} cm persegi
-6. Milimeter persegi = {g} mm persegi""")
+            print(f"""Luas dalam {LDm} desimeter persegi dikonversi menjadi
+1. Kilometer persegi = {LKm} km persegi
+2. Hektometer persegi (hektar) = {LHm} hm persegi
+3. Dekameter persegi (are) = {LDam} dam persegi
+4. Meter persegi = {LM} m persegi
+5. Centimeter persegi = {LCm} cm persegi
+6. Milimeter persegi = {LMm} mm persegi""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
@@ -171,23 +171,23 @@ Pilih satuan luas yang akan dikonversi
             system(clr.d)
             print('MENGKONVERSI NILAI LUAS DALAM SATUAN CENTIMETER PERSEGI')
             
-            a = float(input('Inputkan nilai luas dalam satuan centimeter persegi : '))
+            LCm = float(input('Inputkan nilai luas dalam satuan centimeter persegi : '))
             
-            b = a/10**10
-            c = a/10**8
-            d = a/10**6
-            e = a/10**4
-            f = a/10**2
-            g = a*10**2
+            LKm = LCm/10**10
+            LHm = LCm/10**8
+            LDam = LCm/10**6
+            LM = LCm/10**4
+            LDm = LCm/10**2
+            LMm = LCm*10**2
             
             print()
-            print(f"""Luas dalam {a} centimeter persegi dikonversi menjadi
-1. Kilometer persegi = {b} km persegi
-2. Hektometer persegi (hektar) = {c} hm persegi
-3. Dekameter persegi (are) = {d} dam persegi
-4. Meter persegi = {e} m persegi
-5. Desimeter persegi = {f} dm persegi
-6. Milimeter persegi = {g} mm persegi""")
+            print(f"""Luas dalam {LCm} centimeter persegi dikonversi menjadi
+1. Kilometer persegi = {LKm} km persegi
+2. Hektometer persegi (hektar) = {LHm} hm persegi
+3. Dekameter persegi (are) = {LDam} dam persegi
+4. Meter persegi = {LM} m persegi
+5. Desimeter persegi = {LDm} dm persegi
+6. Milimeter persegi = {LMm} mm persegi""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
@@ -199,23 +199,23 @@ Pilih satuan luas yang akan dikonversi
             system(clr.d)
             print('MENGKONVERSI NILAI LUAS DALAM SATUAN MILIMETER PERSEGI')
             
-            a = float(input('Inputkan nilai luas dalam satuan milimeter persegi : '))
+            LMm = float(input('Inputkan nilai luas dalam satuan milimeter persegi : '))
             
-            b = a/10**12
-            c = a/10**10
-            d = a/10**8
-            e = a/10**6
-            f = a/10**4
-            g = a/10**2
+            LKm = LMm/10**12
+            LHm = LMm/10**10
+            LDam = LMm/10**8
+            LM = LMm/10**6
+            LDm = LMm/10**4
+            LCm = LMm/10**2
             
             print()
-            print(f"""Luas dalam {a} milimeter persegi dikonversi menjadi
-1. Kilometer persegi = {b} km persegi
-2. Hektometer persegi (hektar) = {c} hm persegi
-3. Dekameter persegi (are) = {d} dam persegi
-4. Meter persegi = {e} m persegi
-5. Desimeter persegi = {f} dm persegi
-6. Centimeter persegi = {g} cm persegi""")
+            print(f"""Luas dalam {LMm} milimeter persegi dikonversi menjadi
+1. Kilometer persegi = {LKm} km persegi
+2. Hektometer persegi (hektar) = {LHm} hm persegi
+3. Dekameter persegi (are) = {LDam} dam persegi
+4. Meter persegi = {LM} m persegi
+5. Desimeter persegi = {LDm} dm persegi
+6. Centimeter persegi = {LCm} cm persegi""")
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
             if ulang != 'y':
