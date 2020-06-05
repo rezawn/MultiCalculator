@@ -26,16 +26,16 @@ Pilih satuan waktu yang akan anda konversi
             system(clr.d)
             print('MENGKONVERSI WAKTU DARI DETIK')
             print('-------------------------------------------------------')
-            a = float(input('Inputkan waktu dalam detik: '))
-            b = a/60
-            c = b/60
-            d = c/24
+            S = float(input('Inputkan waktu dalam detik: '))
+            M = S/60
+            J = M/60
+            H = J/24
             
             print()
-            print(f'''Waktu dalam {a} detik dikonversi menjadi
-Menit  : {b} menit
-Jam    : {c} jam
-Hari   : {d} hari''')
+            print(f'''Waktu dalam {S} detik dikonversi menjadi
+Menit  : {M} menit
+Jam    : {J} jam
+Hari   : {H} hari''')
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n)')
             if ulang != 'y':
@@ -46,16 +46,16 @@ Hari   : {d} hari''')
             system(clr.d)
             print('MENGKONVERSI WAKTU DARI MENIT')
             print('-------------------------------------------------------')
-            a = float(input('Inputkan waktu dalam menit: '))
-            b = a*60
-            c = a/60
-            d = c/24
+            M = float(input('Inputkan waktu dalam menit: '))
+            S = M*60
+            J = M/60
+            H = J/24
             
             print()
-            print(f'''Waktu dalam {a} menit dikonversi menjadi
-Detik  : {b} Detik
-Jam    : {c} jam
-Hari   : {d} hari''')
+            print(f'''Waktu dalam {M} menit dikonversi menjadi
+Detik  : {S} Detik
+Jam    : {J} jam
+Hari   : {H} hari''')
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n)')
             if ulang != 'y':
@@ -66,16 +66,16 @@ Hari   : {d} hari''')
             system(clr.d)
             print('MENGKONVERSI WAKTU DARI JAM')
             print('-------------------------------------------------------')
-            a = float(input('Inputkan waktu dalam jam: '))
-            b = a*3600
-            c = a*60
-            d = a/24
+            J = float(input('Inputkan waktu dalam jam: '))
+            S = J*3600
+            M = J*60
+            H = J/24
             
             print()
-            print(f'''Waktu dalam {a} jam dikonversi menjadi
-Detik  : {b} Detik
-Menit  : {c} menit
-Hari   : {d} hari''')
+            print(f'''Waktu dalam {J} jam dikonversi menjadi
+Detik  : {S} Detik
+Menit  : {M} menit
+Hari   : {H} hari''')
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n)')
             if ulang != 'y':
@@ -86,16 +86,16 @@ Hari   : {d} hari''')
             system(clr.d)
             print('MENGKONVERSI WAKTU DARI HARI')
             print('-------------------------------------------------------')
-            a = float(input('Inputkan waktu dalam hari: '))
-            b = a*24
-            c = b*60
-            d = c*60
+            H = float(input('Inputkan waktu dalam hari: '))
+            J = H*24
+            M = J*60
+            S = M*60
             
             print()
-            print(f'''Waktu dalam {a} hari dikonversi menjadi
-Detik  : {d} Detik
-Menit  : {c} menit
-Jam    : {b} jam''')
+            print(f'''Waktu dalam {H} hari dikonversi menjadi
+Detik  : {S} Detik
+Menit  : {M} menit
+Jam    : {J} jam''')
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n)')
             if ulang != 'y':
