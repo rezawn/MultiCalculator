@@ -46,7 +46,7 @@ Pilih kategori Anda
       print('MENGHITUNG BERAT BADAN IDEAL')
       
       #usia dalam satuan tahun
-      UB = float(input('Usia Anak dalam Satuan Tahun : '))
+      UA = float(input('Usia Anak dalam Satuan Tahun : '))
       
       Bbi_anak=(2*UB)+8
       
