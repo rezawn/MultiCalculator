@@ -35,7 +35,7 @@ Pilih Bangun Ruang :
             v=s**3
             print('Volume Kubus: ',v)
             print()
-            ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
+            ulang = input('Apakah anda ingin menggunakan perhitungan ini lagi? (y/n) ')
             if ulang != 'y':
                 break
     
@@ -50,7 +50,7 @@ Pilih Bangun Ruang :
             v=p*l*Tb
             print('Volume Balok: ',v)
             print()
-            ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
+            ulang = input('Apakah anda ingin menggunakan perhitungan ini lagi? (y/n) ')
             if ulang != 'y':
                 break
     
@@ -66,7 +66,7 @@ Pilih Bangun Ruang :
             v=LA*Tp
             print('Volume Prisma Segitiga: ',v)
             print()
-            ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
+            ulang = input('Apakah anda ingin menggunakan perhitungan ini lagi? (y/n) ')
             if ulang != 'y':
                 break
 
@@ -82,7 +82,7 @@ Pilih Bangun Ruang :
             v=(LA*Tl)/3
             print('Volume Limas Segitiga: ',v)
             print()
-            ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
+            ulang = input('Apakah anda ingin menggunakan perhitungan ini lagi? (y/n) ')
             if ulang != 'y':
                 break
  
@@ -98,7 +98,7 @@ Pilih Bangun Ruang :
             v=(LA*Tl)/3
             print('Volume Limas Segitiga: ',v)
             print()
-            ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
+            ulang = input('Apakah anda ingin menggunakan perhitungan ini lagi? (y/n) ')
             if ulang != 'y':
                 break
             
@@ -113,7 +113,7 @@ Pilih Bangun Ruang :
             v=LA*Tt
             print('Volume Tabung: ',v)
             print()
-            ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
+            ulang = input('Apakah anda ingin menggunakan perhitungan ini lagi? (y/n) ')
             if ulang != 'y':
                 break
     
@@ -128,7 +128,7 @@ Pilih Bangun Ruang :
             v=(LA*Tk)/3
             print('Volume Kerucut: ',v)
             print()
-            ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
+            ulang = input('Apakah anda ingin menggunakan perhitungan ini lagi? (y/n) ')
             if ulang != 'y':
                 break
     
@@ -141,7 +141,7 @@ Pilih Bangun Ruang :
             v=(4*(22/7.0)*r**3)/3
             print('Volume Bola: ',v)
             print()
-            ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
+            ulang = input('Apakah anda ingin menggunakan perhitungan ini lagi? (y/n) ')
             if ulang != 'y':
                 break
 
