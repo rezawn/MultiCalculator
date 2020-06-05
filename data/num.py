@@ -30,12 +30,12 @@ Contoh: 1+(1*(4**0.5))
     z = pi/179.99999999999998
     y = 1/z
             
-    a = input()
-    b = str(a)
-    c = eval(b)
+    h = input()
+    i = str(h)
+    j = eval(i)
         
     print()
-    print('Hasil perhitungan adalah', c)
+    print('Hasil perhitungan adalah', j)
     print()
             
     ulang = input("Apakah anda ingin menggunakan kalkulator numerik lagi? (y/n) ")
