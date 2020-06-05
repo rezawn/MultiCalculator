@@ -46,8 +46,8 @@ Pilih Bangun Ruang :
             print('MENGHITUNG VOLUME BALOK')
             p=float(input('panjang:'))
             l=float(input('lebar:'))
-            t=float(input('tinggi:'))
-            v=p*l*t
+            Tb=float(input('tinggi balok:'))
+            v=p*l*Tb
             print('Volume Balok: ',v)
             print()
             ulang = input('Apakah anda ingin menggunakan konversi ini lagi? (y/n) ')
