@@ -23,7 +23,7 @@ Pilih satuan luas yang akan dikonversi
 0. Keluar
 -------------------------------------------------------""")
     
-    jenis = input('Respon: ')
+    jenis = input('Satuan yang akan dikonversi: ')
     
     if jenis == '1':
         iterasi = True
