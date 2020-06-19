@@ -42,8 +42,8 @@ PETUNJUK PENGGUNAAN
 # Gunakan * untuk perkalian
 # Gunakan / untuk pembagian
 # Gunakan ** untuk perpangkatan dan akar
-# Gunakan *z untuk mengubah radian ke derajat
-# Gunakan *y untuk mengubah derajat ke radian
+# Gunakan *z untuk mengubah derajat ke radian
+# Gunakan *y untuk mengubah radian ke derajat
 # Pada trigonometri gunakan format sin(x) untuk x dalam radian
 # Untuk nilai arc gunakan format asin(x) hasil dalam radian
 # Gunakan penulisan tanda dalam kurung dengan benar
